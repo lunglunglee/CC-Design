@@ -53,6 +53,7 @@ namespace CC_Design
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
+            services.Configure<AuthMessageSMSSenderOptions>(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -99,6 +100,7 @@ namespace CC_Design
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+
 
         // Entry point for the application.
         public static void Main(string[] args) => WebApplication.Run<Startup>(args);
