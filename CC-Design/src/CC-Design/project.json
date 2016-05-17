@@ -1,4 +1,4 @@
-﻿{
+{
   "commands": {
     "ef": "EntityFramework.Commands",
     "web": "Microsoft.AspNet.Server.Kestrel"
@@ -15,7 +15,6 @@
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
     "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
     "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final",
-    "Microsoft.AspNet.Server.IIS": "1.0.0-beta3",
     "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
     "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
     "Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final",
